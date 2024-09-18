@@ -19,19 +19,19 @@ Windows: Download the Tesseract installer and install it. Add the installation p
 Linux: Run the following command to install:
 
 bash
-Copy code
+ 
 sudo apt-get install tesseract-ocr
 macOS: Run the following command to install:
 
 bash
-Copy code
+ 
 brew install tesseract
 Install Required Python Libraries:
 
 Clone the repository and install the dependencies using requirements.txt.
 
 bash
-Copy code
+ 
 git clone https://github.com/avi-nasshh/pdf-processing-pipeline.git
 cd pdf-processing-pipeline
 
@@ -52,7 +52,7 @@ The pipeline configuration is handled through a Python dictionary, which include
 Here’s an example of the config dictionary:
 
 python
-Copy code
+ 
 config = {
     'openai_api_key': 'your_openai_api_key_here',
     'google_api_key': 'your_google_api_key_here',
